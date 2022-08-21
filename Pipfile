@@ -4,15 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+
+[dev-packages]
+jupyter = "*"
+ipykernel = "*"
 requests = "*"
 selenium = "*"
 bs4 = "*"
 pandas = "*"
 lxml = "*"
-
-[dev-packages]
-jupyter = "*"
-ipykernel = "*"
 
 [requires]
 python_version = "3.9"
